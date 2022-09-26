@@ -1,3 +1,3 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Gitignore corrected  Hello, World!");
+Console.WriteLine("Gitignore corrected again  Hello, World!");
 
