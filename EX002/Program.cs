@@ -1,3 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Gitignore corrected again  Hello, World!");
+Console.Write("Enter your name ");
+string nickname = Console.ReadLine ();
+Console.WriteLine(("Hello, ")+(nickname));
+
 
