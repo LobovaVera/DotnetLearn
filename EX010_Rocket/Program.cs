@@ -1,6 +1,9 @@
 ﻿Console.WriteLine("Введите сокрость ракеты на момент выхода за пределы атмосферы земли");
-            double rocketSpeed = Console.Read();
+            string speed = Console.ReadLine()!;
+            double rocketSpeed = Convert.ToDouble(speed);
 
+
+Console.WriteLine("Your speed is " + rocketSpeed);
             if (rocketSpeed < 7.5)
             {
                 Console.WriteLine(" The Rocket will fall down. Back to earth!");
@@ -18,5 +21,5 @@
             {
                 Console.WriteLine(" Woo-hoo! let's travel around the space");
             }
-            Console.WriteLine("what's wrong");
+            Console.WriteLine("!");
             Console.ReadKey();
